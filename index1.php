@@ -23,7 +23,7 @@
 			</div>
 			<button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition">送信</button>
 		</form>
-
+		<!-- コメントサンプル -->
 		<?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			// データベース接続の設定
@@ -91,9 +91,13 @@
 
 		$myDog = new Dog("Buddy", "Golden Retriever");
 		echo "<p class='text-gray-700 mt-4'>" . $myDog->getInfo() . "</p>";
+
+
+
 		?>
 
 	</div>
 </body>
+
 
 </html>
