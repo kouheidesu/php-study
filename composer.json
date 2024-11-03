@@ -1,0 +1,13 @@
+{
+	"name": "kouheidesu/php-study",
+	"description": "A simple PHP app deployed to Heroku",
+	"require": {
+	  "php": "^8.0",
+	  "ext-mbstring": "*",
+	  "ext-json": "*"
+	},
+	"scripts": {
+	  "start": "php -S localhost:8000 -t public"
+	}
+  }
+  
