@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PHPとHTMLの組み合わせ</title>
+
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
@@ -91,6 +92,10 @@
 
 		$myDog = new Dog("Buddy", "Golden Retriever");
 		echo "<p class='text-gray-700 mt-4'>" . $myDog->getInfo() . "</p>";
+
+		// レコード削除するコマンド
+		// DELETE FROM テーブル名 WHERE 条件;
+
 
 
 
